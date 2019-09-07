@@ -1,0 +1,29 @@
+{
+    "homepage": "https://clojure.org",
+    "version": "1.10.1.447",
+    "license": "EPL-1.0",
+    "url": "https://download.clojure.org/install/clojure-tools-1.10.1.447.zip",
+    "hash": "8bfa18d8271e30bad67a789ea89e3e74f6a7ac3134c304a8c7716a0659d86b08",
+    "extract_dir": "ClojureTools",
+    "bin": [
+        [
+            "powershell.exe",
+            "clj",
+            "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
+        ],
+        [
+            "powershell.exe",
+            "clojure",
+            "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
+        ]
+    ],
+    "psmodule": {
+        "name": "ClojureTools"
+    },
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    }
+}
