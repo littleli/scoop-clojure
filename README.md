@@ -1,5 +1,7 @@
 ﻿# scoop-clojure
 
+Hello. This repository is a scoop bucket. In order to be useful you have to install scoop first. Installation steps for scoop and additional information can be found on [scoop homepage](http://scoop.sh). Don't worry installation is easy.
+
 To install Clojure with Scoop you have to add two important buckets first:
 
 ```sh
