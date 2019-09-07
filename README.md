@@ -17,7 +17,7 @@ Now we are ready to install Java and Clojure by issuing following commands:
 scoop install adoptopenjdk-lts-hotspot
 
 # install official clojure tools
-scoop install scoop-clojure
+scoop install clojure
 ```
 
 After successfully running steps above, you should be able to run Clojure with following:
