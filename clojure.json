@@ -22,6 +22,8 @@
     },
     "suggest": {
         "JDK": [
+            "java/adopt8-hotspot",
+            "java/adoptopenjdk-lts-hotspot",
             "java/oraclejdk",
             "java/openjdk"
         ]
