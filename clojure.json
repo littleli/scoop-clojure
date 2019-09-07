@@ -27,5 +27,12 @@
             "java/oraclejdk",
             "java/openjdk"
         ]
+    },
+    "checkver": {
+        "url": "https://github.com/clojure/tools.deps.alpha/wiki/clj-on-Windows",
+        "re": "win-install-(\\d+\\.\\d+\\.\\d+\\.\\d+).ps1"
+    },
+    "autoupdate": {
+        "url": "https://download.clojure.org/install/clojure-tools-$version.zip"
     }
 }
