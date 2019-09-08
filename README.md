@@ -29,3 +29,15 @@ clj
 ```
 
 Note: [Clojure scoop manifest](https://gist.github.com/malyn/98973db594061ab57a8222432b8074d9) was written by [Malyn](https://github.com/malyn)
+
+You may also want to install [Joker](https://joker-lang.org). Joker is a small interpreted dialect of Clojure written in Go programming language. It is a popular Clojure and ClojureScript linter.
+
+```sh
+scoop install joker
+```
+
+Now you can start Joker prompt with:
+
+```sh
+joker
+```
