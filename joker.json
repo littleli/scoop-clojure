@@ -6,10 +6,6 @@
     "url": "https://github.com/candid82/joker/releases/download/v0.12.7/joker-0.12.7-win-amd64.zip",
     "hash": "fac5f2b9b8ec7b53699cf98975ebee4203d01fe270dd109692e4a810c5039587",
     "bin": "joker.exe",
-    "shortcuts": [
-        "joker.exe",
-        "joker"
-    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/candid82/joker/releases/download/v$version/joker-$version-win-amd64.zip"
