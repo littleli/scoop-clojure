@@ -5,6 +5,11 @@ Hello. This repository is a scoop bucket. In order to be useful you have to inst
 To install Clojure with Scoop you have to add two important buckets first:
 
 ```sh
+# if you don't have git version control system installed
+# it is required for adding new external buckets to your scoop installer
+# you can skip this step otherwise
+scoop install git
+
 # add scoop bucket for Java 
 scoop bucket add java
 
