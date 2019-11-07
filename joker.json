@@ -1,13 +1,14 @@
 {
     "homepage": "https://joker-lang.org",
     "description": "Joker is a small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter",
-    "version": "0.12.7",
+    "version": "0.12.9",
     "license": "EPL-1.0",
-    "url": "https://github.com/candid82/joker/releases/download/v0.12.7/joker-0.12.7-win-amd64.zip",
-    "hash": "fac5f2b9b8ec7b53699cf98975ebee4203d01fe270dd109692e4a810c5039587",
+    "url": "https://github.com/candid82/joker/releases/download/v0.12.9/joker-0.12.9-win-amd64.zip",
+    "hash": "857f7d2cee888c454a20461466a705d258a2e0082bc0e31462e1581e23fb3bfa",
     "bin": "joker.exe",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/candid82/joker/releases/download/v$version/joker-$version-win-amd64.zip"
     }
 }
+
