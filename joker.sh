@@ -20,7 +20,7 @@ if [ $CHECKVER_CODE -ne 302 ]; then
 	exit 3
 fi
 
-SHA256SUM=$(curl -sLS --fail-early "${TARGET}" | shasum -a 256 -p | cut -f1 -d\ )
+SHA256SUM=$(curl -sLS --fail-early "${TARGET}" | shasum -a 256 -b | cut -f1 -d\ )
 
 cat <<MANIFEST  
 {
