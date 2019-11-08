@@ -20,7 +20,7 @@ if [ $CHECKVER_CODE -ne 200 ]; then
 	exit 3
 fi
 
-SHA256SUM=$(curl -sS --fail-early https://download.clojure.org/install/clojure-tools-${VERSION}.zip | shasum -a 256 -p | cut -f1 -d\ )
+SHA256SUM=$(curl -sS --fail-early https://download.clojure.org/install/clojure-tools-${VERSION}.zip | shasum -a 256 -b | cut -f1 -d\ )
 
 cat <<MANIFEST  
 {
