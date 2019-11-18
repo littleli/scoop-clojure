@@ -31,18 +31,6 @@ cat <<MANIFEST
     "url": "https://download.clojure.org/install/clojure-tools-${VERSION}.zip",
     "hash": "${SHA256SUM}",
     "extract_dir": "ClojureTools",
-    "bin": [
-        [
-            "powershell.exe",
-            "clj",
-            "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
-        ],
-        [
-            "powershell.exe",
-            "clojure",
-            "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
-        ]
-    ],
     "psmodule": {
         "name": "ClojureTools"
     },
