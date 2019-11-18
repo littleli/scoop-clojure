@@ -6,18 +6,6 @@
     "url": "https://download.clojure.org/install/clojure-tools-1.10.1.486.zip",
     "hash": "1a421f47f01730742ebd08f456bd1e4fec33fc2f564e418c5bd398af36bf1abc",
     "extract_dir": "ClojureTools",
-    "bin": [
-        [
-            "powershell.exe",
-            "clj",
-            "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
-        ],
-        [
-            "powershell.exe",
-            "clojure",
-            "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
-        ]
-    ],
     "psmodule": {
         "name": "ClojureTools"
     },
@@ -37,3 +25,4 @@
         "url": "https://download.clojure.org/install/clojure-tools-$version.zip"
     }
 }
+
