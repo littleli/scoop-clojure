@@ -28,8 +28,12 @@ cat <<MANIFEST
     "description": "Joker is a small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter",
     "version": "${VERSION}",
     "license": "EPL-1.0",
-    "url": "${TARGET}",
-    "hash": "${SHA256SUM}",
+    "architecture": {
+        "64bit": {
+            "url": "${TARGET}",
+            "hash": "${SHA256SUM}",
+        }
+    },
     "bin": "joker.exe",
     "checkver": "github",
     "autoupdate": {
