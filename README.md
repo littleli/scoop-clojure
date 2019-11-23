@@ -25,6 +25,9 @@ scoop install adoptopenjdk-lts-hotspot
 
 # install official clojure tools
 scoop install clojure
+
+# update to the newest version
+scoop update clojure
 ```
 
 After successfully running steps above, you should be able to run Clojure with following:
@@ -35,14 +38,34 @@ clj
 
 Note: [Clojure scoop manifest](https://gist.github.com/malyn/98973db594061ab57a8222432b8074d9) was written by [Malyn](https://github.com/malyn)
 
-You may also want to install [Joker](https://joker-lang.org). Joker is a small interpreted dialect of Clojure written in Go programming language. It is a popular Clojure and ClojureScript linter.
+## Linting Tools
+
+You may also want to install popular linters. The following two linters become available with this scoop bucket.
+
+* [clj-kondo](https://github.com/borkdude/clj-kondo)
+* [joker](https://joker-lang.org)
 
 ```sh
+# To install clj-kondo.exe
+scoop install clj-kondo
+
+# To install joker.exe use this command
 scoop install joker
 ```
 
-Now you can start Joker prompt with:
+To check availability you can execute:
 
 ```sh
-joker
+# for clj-kondo
+clj-kondo --version
+
+# for joker
+joker -v
+```
+
+Update to the newest versions
+
+```sh
+scoop update clj-kondo
+scoop update joker
 ```
