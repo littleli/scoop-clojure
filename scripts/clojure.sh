@@ -34,6 +34,18 @@ cat <<MANIFEST
     "psmodule": {
         "name": "ClojureTools"
     },
+    "bin": [
+        [
+            "powershell.exe",
+            "cmd-clojure",
+            "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
+        ],
+        [
+            "powershell.exe",
+            "cmd-clj",
+            "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
+        ]
+    ],
     "suggest": {
         "JDK": [
             "java/adopt8-hotspot",
