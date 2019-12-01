@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/candid82/joker/releases/download/v0.14.0/joker-0.14.0-win-amd64.zip",
-            "hash": "cc3e55c7ba06dd7bc3d28e603a3bfac71844100a3cff87720021094c797dff88",
+            "hash": "cc3e55c7ba06dd7bc3d28e603a3bfac71844100a3cff87720021094c797dff88"
         }
     },
     "bin": "joker.exe",

@@ -31,7 +31,7 @@ cat <<MANIFEST
     "architecture": {
         "64bit": {
             "url": "${TARGET}",
-            "hash": "${SHA256SUM}",
+            "hash": "${SHA256SUM}"
         }
     },
     "bin": "joker.exe",
