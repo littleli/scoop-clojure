@@ -36,6 +36,13 @@ After successfully running steps above, you should be able to run Clojure with f
 clj
 ```
 
+To launch clojure from `cmd.exe` or tools like Emacs, you can use prepared shims:
+
+```sh
+cmd-clj
+cmd-clojure
+```
+
 Note: [Clojure scoop manifest](https://gist.github.com/malyn/98973db594061ab57a8222432b8074d9) was written by [Malyn](https://github.com/malyn)
 
 ## Linting Tools
