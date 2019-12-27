@@ -9,6 +9,9 @@
             "hash": "6450747971c2e8cab566d4f77a79e519f776f803948ae77c38bbb064d3840690"
         }
     },
+    "suggest": {
+        "Visual C/C++ Redistributable 2010": "extras/vcredist2010"
+    },
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/borkdude/deps.clj/releases/download/v$version/deps.clj-$version-windows-amd64.zip"
