@@ -1,0 +1,17 @@
+{
+    "description": "A port of the clojure bash script to Clojure",
+    "homepage": "https://github.com/borkdude/deps.clj",
+    "license": "EPL-1.0",
+    "version": "0.0.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/borkdude/deps.clj/releases/download/v0.0.2/deps.clj-0.0.2-windows-amd64.zip",
+            "hash": "e2c2dab24589a04e3a8135d986aee59172420b913f4991c9a717c6e50e648cb7"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/borkdude/deps.clj/releases/download/v$version/deps.clj-$version-windows-amd64.zip"
+    },
+    "bin": "deps.exe"
+}
