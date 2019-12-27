@@ -34,6 +34,9 @@ cat <<MANIFEST
             "hash": "${SHA256SUM}"
         }
     },
+    "suggest": {
+        "Visual C/C++ Redistributable 2010": "extras/vcredist2010"
+    },
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/borkdude/clj-kondo/releases/download/v\$version/clj-kondo-\$version-win-amd64.zip"

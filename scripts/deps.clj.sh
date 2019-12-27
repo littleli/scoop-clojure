@@ -34,6 +34,9 @@ cat <<MANIFEST
             "hash": "${SHA256SUM}"
         }
     },
+    "suggest": {
+        "Visual C/C++ Redistributable 2010": "extras/vcredist2010"
+    },
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/borkdude/deps.clj/releases/download/v\$version/deps.clj-\$version-windows-amd64.zip"
