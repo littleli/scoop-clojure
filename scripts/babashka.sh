@@ -31,7 +31,7 @@ cat <<MANIFEST
     "suggest": {
         "Visual C/C++ Redistributable 2010": "extras/vcredist2010"
     },
-    "bin": "babashka.exe"
+    "bin": "bb.exe"
 }
 
 MANIFEST
