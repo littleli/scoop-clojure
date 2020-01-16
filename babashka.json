@@ -5,8 +5,8 @@
     "version": "0.0.63",
     "architecture": {
         "64bit": {
-            "url": "https://ci.appveyor.com/api/buildjobs/u69snl7lmta541mu/artifacts/babashka-0.0.63-SNAPSHOT-windows-amd64.zip",
-            "hash": "2c013e4c844210c18fa1d9369aae074501c2ebb9c16c48dba9f1518f496b0c23"
+            "url": "https://github.com/borkdude/babashka/releases/download/v0.0.63/babashka-0.0.63-windows-amd64.zip",
+            "hash": "c7381eb14d87a7f6877f3df2981fc6ab67775feec8af88fe640f7a8ab6ecd734"
         }
     },
     "suggest": {
