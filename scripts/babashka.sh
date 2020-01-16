@@ -12,7 +12,13 @@ SHASUM=`which shasum`
 CURL=`which curl`
 [ -n ${SHASUM} ] && [ -n ${CURL} ] || exit 2
 
-TARGET="https://ci.appveyor.com/api/buildjobs/u69snl7lmta541mu/artifacts/babashka-${VERSION}-SNAPSHOT-windows-amd64.zip"
+TARGET="https://github.com/borkdude/babashka/releases/download/v${VERSION}/babashka-${VERSION}-windows-amd64.zip"
+
+CHECKVER_CODE=`curl -X HEAD -m 3 -sfw "%{response_code}" ${TARGET}`
+if [ $CHECKVER_CODE -ne 302 ]; then
+	echo "Version ${VERSION} does not exist" >&2
+	exit 3
+fi
 
 SHA256SUM=$(curl -sLS --fail-early "${TARGET}" | shasum -a 256 -b | cut -f1 -d\ )
 
