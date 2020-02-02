@@ -1,0 +1,17 @@
+{
+    "description": "CLI to transform between JSON, EDN and Transit, powered with a minimal query language",
+    "homepage": "https://github.com/borkdude/jet",
+    "license": "EPL-1.0",
+    "version": "0.0.11",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/borkdude/jet/releases/download/v0.0.11/jet-0.0.11-windows-amd64.zip",
+            "hash": "29f3a36533d04d643ea84e6f09758045cb0438a7548bcdfc1aa24b26b7ddf80e"
+        }
+    },
+    "suggest": {
+        "Visual C/C++ Redistributable 2010": "extras/vcredist2010"
+    },
+    "bin": "jet.exe"
+}
+
