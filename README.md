@@ -43,36 +43,25 @@ cmd-clj
 cmd-clojure
 ```
 
-Note: [Clojure scoop manifest](https://gist.github.com/malyn/98973db594061ab57a8222432b8074d9) was written by [Malyn](https://github.com/malyn)
+## Tools available in this scoop bucket
 
-## Linting Tools
-
-You may also want to install popular linters. The following two linters become available with this scoop bucket.
-
-* [clj-kondo](https://github.com/borkdude/clj-kondo)
-* [joker](https://joker-lang.org)
+* [babashka](https://github.com/borkdude/babashka): A port of the clojure bash script to Clojure
+* [bootleg](https://github.com/retrogradeorbit/bootleg): Simple template processing command line tool to help build static websites
+* [clj-kondo](https://github.com/borkdude/clj-kondo): A linter for Clojure code that sparks joy
+* [deps.clj](https://github.com/borkdude/deps.clj): A port of the clojure bash script to Clojure
+* [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN and Transit, powered with a minimal query language
+* [joker](https://joker-lang.org): A small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter
 
 ```sh
-# To install clj-kondo.exe
+scoop install babashka
+scoop install bootleg
 scoop install clj-kondo
-
-# To install joker.exe use this command
+scoop install deps.clj
+scoop install jet
 scoop install joker
 ```
 
-To check availability you can execute:
-
+These tools are updated quite often, don't forget to update regularly with:
 ```sh
-# for clj-kondo
-clj-kondo --version
-
-# for joker
-joker -v
-```
-
-Update to the newest versions
-
-```sh
-scoop update clj-kondo
-scoop update joker
+scoop update *
 ```
