@@ -65,3 +65,7 @@ These tools are updated quite often, don't forget to update regularly with:
 ```sh
 scoop update *
 ```
+
+## Scoop directory
+
+This scoop bucket is also listed in [Scoop directory](https://github.com/rasa/scoop-directory/blob/master/by-bucket.md#back_littleli_scoop-clojure) where to check other useful buckets with tons of packaged software.
