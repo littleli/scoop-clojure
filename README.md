@@ -68,4 +68,4 @@ scoop update *
 
 ## Scoop directory
 
-This scoop bucket is also listed in [Scoop directory](https://github.com/rasa/scoop-directory/blob/master/by-bucket.md#littleliscoop-clojure-) where to check other useful buckets with tons of packaged software.
+This scoop bucket is also listed in [Scoop directory](https://rasa.github.io/scoop-directory/by-bucket.html#littleli_scoop-clojure) where to check other useful buckets with tons of packaged software.
