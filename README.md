@@ -52,6 +52,16 @@ cmd-clojure
 * [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN and Transit, powered with a minimal query language
 * [joker](https://joker-lang.org): A small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter
 
+### Tools installation
+
+First add extras bucket and install required dependency:
+```sh
+scoop bucket add extras
+scoop install extras/vcredist2010
+```
+
+Now pick from the following tools:
+
 ```sh
 scoop install babashka
 scoop install bootleg
