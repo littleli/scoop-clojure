@@ -35,7 +35,7 @@ cat <<MANIFEST
         }
     },
     "suggest": {
-        "Visual C/C++ Redistributable 2010": "extras/vcredist2010"
+        "Visual C/C++ Redistributable 2015": "extras/vcredist2015"
     },
     "bin": "bb.exe"
 }
