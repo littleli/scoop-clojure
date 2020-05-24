@@ -58,6 +58,7 @@ First add extras bucket and install required dependency:
 ```sh
 scoop bucket add extras
 scoop install extras/vcredist2010
+scoop install extras/vcredist2015
 ```
 
 Now pick from the following tools:
