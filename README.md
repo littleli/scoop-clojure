@@ -54,12 +54,16 @@ cmd-clojure
 
 ### Tools installation
 
+### Install extras
+
 First add extras bucket and install required dependencies:
 ```sh
 scoop bucket add extras
 scoop install extras/vcredist2010
 scoop install extras/vcredist2015
 ```
+
+### Tools
 
 Now pick from the following tools:
 
@@ -72,10 +76,16 @@ scoop install jet
 scoop install joker
 ```
 
+### Updates
+
 These tools are updated quite often, don't forget to update regularly with:
 ```sh
 scoop update *
 ```
+
+## Troubleshooting
+
+If you encounter issue between the updates make sure you revisit [Install extras](#install-extras) section. Newer packages can depend on the different version of system libraries and these have to be present on your system. Complete list of required libraries is maintained above.
 
 ## Scoop directory
 
