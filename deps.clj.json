@@ -9,9 +9,7 @@
             "hash": "d585bfe85a323c023a1937d1d7a03a3879984d6765ae6a37fe480760320e7af7"
         }
     },
-    "suggest": {
-        "Visual C/C++ Redistributable 2015": "extras/vcredist2015"
-    },
+    "depends": "extras/vcredist2015",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/borkdude/deps.clj/releases/download/v$version/deps.clj-$version-windows-amd64.zip"
