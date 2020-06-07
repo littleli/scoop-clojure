@@ -56,11 +56,9 @@ cmd-clojure
 
 ### Install extras
 
-First add extras bucket and install required dependencies:
+First add extras bucket to unlock required dependencies:
 ```sh
 scoop bucket add extras
-scoop install extras/vcredist2010
-scoop install extras/vcredist2015
 ```
 
 ### Tools
