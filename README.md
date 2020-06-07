@@ -81,10 +81,6 @@ These tools are updated quite often, don't forget to update regularly with:
 scoop update *
 ```
 
-## Troubleshooting
-
-If you encounter issue between the updates make sure you revisit [Install extras](#install-extras) section. Newer packages can depend on the different version of system libraries and these have to be present on your system. Complete list of required libraries is maintained above.
-
 ## Scoop directory
 
 This scoop bucket is also listed in [Scoop directory](https://rasa.github.io/scoop-directory/by-bucket.html#littleli_scoop-clojure) where to check other useful buckets with tons of packaged software.
