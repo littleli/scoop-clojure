@@ -9,9 +9,7 @@
             "hash": "a2eee287a4e89a8eb67ec642c0c3ddd77d0d8c6290f9c44d7090725afe81ab01"
         }
     },
-    "suggest": {
-        "Visual C/C++ Redistributable 2015": "extras/vcredist2015"
-    },
+    "depends": "extras/vcredist2015",
     "bin": "bb.exe"
 }
 

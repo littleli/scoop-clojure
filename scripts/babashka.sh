@@ -34,9 +34,7 @@ cat <<MANIFEST
             "hash": "${SHA256SUM}"
         }
     },
-    "suggest": {
-        "Visual C/C++ Redistributable 2015": "extras/vcredist2015"
-    },
+    "depends": "extras/vcredist2015",
     "bin": "bb.exe"
 }
 

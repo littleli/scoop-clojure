@@ -9,9 +9,7 @@
             "hash": "442fab8b80885708ba4745302283200b9a23612a1b50720e4e9323691d9b7c99"
         }
     },
-    "suggest": {
-        "Visual C/C++ Redistributable 2010": "extras/vcredist2010"
-    },
+    "depends": "extras/vcredist2010",
     "bin": "bootleg.exe"
 }
 

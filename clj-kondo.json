@@ -9,9 +9,7 @@
             "hash": "0e96b4ea8644eb21bb38d4674a0b412dc5c1380fa21ed6475f3167c6a5ba6cfe"
         }
     },
-    "suggest": {
-        "Visual C/C++ Redistributable 2010": "extras/vcredist2010"
-    },
+    "depends": "extras/vcredist2010",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/borkdude/clj-kondo/releases/download/v$version/clj-kondo-$version-win-amd64.zip"

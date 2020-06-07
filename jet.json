@@ -9,9 +9,7 @@
             "hash": "b09cf153c397ba3136b5e07145e13b731808946899c07daffb3bc2308048720d"
         }
     },
-    "suggest": {
-        "Visual C/C++ Redistributable 2010": "extras/vcredist2010"
-    },
+    "depends": "extras/vcredist2010",
     "bin": "jet.exe"
 }
 

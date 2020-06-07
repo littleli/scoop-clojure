@@ -34,9 +34,7 @@ cat <<MANIFEST
             "hash": "${SHA256SUM}"
         }
     },
-    "suggest": {
-        "Visual C/C++ Redistributable 2010": "extras/vcredist2010"
-    },
+    "depends": "extras/vcredist2010",
     "bin": "bootleg.exe"
 }
 
