@@ -2,6 +2,12 @@
 
 Hello. This repository is a scoop bucket. In order to be useful you have to install scoop first. Installation steps for scoop and additional information can be found on [scoop homepage](http://scoop.sh). Don't worry installation is easy.
 
+Please consider a small support and
+
+<a href="https://www.buymeacoffee.com/alesrocks" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Coffee" height="51" width="217">
+</a>
+
 To install Clojure with Scoop you have to add two important buckets first:
 
 ```sh
