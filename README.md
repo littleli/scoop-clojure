@@ -1,6 +1,12 @@
 ﻿# scoop-clojure
 
-Hello. This repository is a scoop bucket. In order to be useful you have to install scoop first. Installation steps for scoop and additional information can be found on [scoop homepage](http://scoop.sh). Don't worry installation is easy.
+This is a new and convenient way to install Clojure on Windows.
+
+- [WSL2](https://docs.microsoft.com/en-us/windows/wsl/faq) is not required
+- Administrator privileges are not required
+- High chance it works in corporate Windows systems
+
+First install Scoop installer. Installation steps for scoop and additional information can be found [here](http://scoop.sh). Don't worry installation is easy.
 
 Please consider a small support and
 
