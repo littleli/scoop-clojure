@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/borkdude/deps.clj/releases/download/v0.0.10/deps.clj-0.0.10-windows-amd64.zip",
-            "hash": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85"
+            "hash": "dbdcc5e5d53f03e5e3af184af745d528aa1b45a7b4fda380b337195a89da4d4a"
         }
     },
     "depends": "extras/vcredist2015",
