@@ -1,0 +1,17 @@
+{
+    "description": "A Clojure babushka for the grey areas of Bash",
+    "homepage": "https://github.com/kloimhardt/bb-web#edit-with-parinfer-codemirror",
+    "license": "EPL-1.0",
+    "version": "0.2.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kloimhardt/babashka/releases/download/v0.2.2/babashka-0.2.3-SNAPSHOT-windows-amd64.zip",
+            "hash": "66649b6ec67df1311656ca1a44903ca566e7d428432c4d2e337c03009312fcf8"
+        }
+    },
+    "depends": "extras/vcredist2015",
+    "bin": [
+        ["bb.exe", "bb-web"]
+    ]
+}
+
