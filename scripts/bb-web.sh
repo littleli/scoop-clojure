@@ -12,7 +12,7 @@ SHASUM=`which shasum`
 CURL=`which curl`
 [ -n ${SHASUM} ] && [ -n ${CURL} ] || exit 2
 
-TARGET="https://github.com/kloimhardt/babashka/releases/download/v${VERSION}/babashka-web-${VERSION}-windows-amd64.zip"
+TARGET="https://github.com/kloimhardt/babashka-web/releases/download/v${VERSION}/babashka-web-${VERSION}-windows-amd64.zip"
 
 CHECKVER_CODE=`curl -X HEAD -m 3 -sfw "%{response_code}" ${TARGET}`
 if [ $CHECKVER_CODE -ne 302 ]; then
@@ -25,7 +25,7 @@ SHA256SUM=$(curl -sLS --fail-early "${TARGET}" | shasum -a 256 -b | cut -f1 -d\ 
 cat <<MANIFEST  
 {
     "description": "A babashka fork for small web-apps",
-    "homepage": "https://github.com/kloimhardt/babashka-web/tree/bb-web",
+    "homepage": "https://github.com/kloimhardt/babashka-web",
     "license": "EPL-1.0",
     "version": "${VERSION}",
     "architecture": {

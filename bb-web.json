@@ -1,0 +1,15 @@
+{
+    "description": "A babashka fork for small web-apps",
+    "homepage": "https://github.com/kloimhardt/babashka-web",
+    "license": "EPL-1.0",
+    "version": "0.2.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kloimhardt/babashka-web/releases/download/v0.2.2/babashka-web-0.2.2-windows-amd64.zip",
+            "hash": "969d35c57c4c4eb0eb79cb616d3b25136ff0825b713ecd199f4061aaf56be03b"
+        }
+    },
+    "depends": "extras/vcredist2015",
+    "bin": "bb-web"
+}
+
