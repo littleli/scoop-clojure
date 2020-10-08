@@ -24,8 +24,8 @@ SHA256SUM=$(curl -sLS --fail-early "${TARGET}" | shasum -a 256 -b | cut -f1 -d\ 
 
 cat <<MANIFEST  
 {
-    "description": "A Clojure babushka for the grey areas of Bash",
-    "homepage": "https://github.com/kloimhardt/bb-web#edit-with-parinfer-codemirror",
+    "description": "A babashka fork for small web-apps",
+    "homepage": "https://github.com/kloimhardt/babashka-web/tree/bb-web",
     "license": "EPL-1.0",
     "version": "${VERSION}",
     "architecture": {
