@@ -35,7 +35,7 @@ cat <<MANIFEST
         }
     },
     "depends": "extras/vcredist2015",
-    "bin": "bb-web"
+    "bin": "bb-web.exe"
 }
 
 MANIFEST
