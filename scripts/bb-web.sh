@@ -12,7 +12,7 @@ SHASUM=`which shasum`
 CURL=`which curl`
 [ -n ${SHASUM} ] && [ -n ${CURL} ] || exit 2
 
-TARGET="https://github.com/kloimhardt/babashka/releases/download/v${VERSION}/babashka-0.2.3-SNAPSHOT-windows-amd64.zip"
+TARGET="https://github.com/kloimhardt/babashka/releases/download/v${VERSION}/babashka-web-${VERSION}-windows-amd64.zip"
 
 CHECKVER_CODE=`curl -X HEAD -m 3 -sfw "%{response_code}" ${TARGET}`
 if [ $CHECKVER_CODE -ne 302 ]; then
@@ -35,9 +35,7 @@ cat <<MANIFEST
         }
     },
     "depends": "extras/vcredist2015",
-    "bin": [
-        ["bb.exe", "bb-web"]
-    ]
+    "bin": "bb-web"
 }
 
 MANIFEST
