@@ -58,6 +58,7 @@ cmd-clojure
 ## Tools available in this scoop bucket
 
 * [babashka](https://github.com/borkdude/babashka): A port of the clojure bash script to Clojure
+* [bb-web](https://github.com/kloimhardt/babashka-web): A babashka fork for small web-apps
 * [bootleg](https://github.com/retrogradeorbit/bootleg): Simple template processing command line tool to help build static websites
 * [clj-kondo](https://github.com/borkdude/clj-kondo): A linter for Clojure code that sparks joy
 * [deps.clj](https://github.com/borkdude/deps.clj): A port of the clojure bash script to Clojure
@@ -79,6 +80,7 @@ Now pick from the following tools:
 
 ```sh
 scoop install babashka
+scoop install bb-web
 scoop install bootleg
 scoop install clj-kondo
 scoop install deps.clj
