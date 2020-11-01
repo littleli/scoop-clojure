@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/borkdude/puget-cli",
+    "description": "A CLI version of puget",
+    "version": "0.0.1",
+    "license": "EPL-1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://ci.appveyor.com/api/buildjobs/by7ab7y21griaepq/artifacts/puget-cli-0.0.1-SNAPSHOT-windows-amd64.zip",
+            "hash": "58fc2e85bed3458b0ec5dda1c1e7fd3c6e049a426297e5621c37b4647b043615"
+        }
+    },
+    "bin": "puget.exe"
+}

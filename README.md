@@ -57,6 +57,7 @@ cmd-clojure
 * [deps.clj](https://github.com/borkdude/deps.clj): A port of the clojure bash script to Clojure
 * [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN and Transit, powered with a minimal query language
 * [joker](https://joker-lang.org): A small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter
+* [puget](https://github.com/borkdude/puget-cli) (development snapshot): A CLI version of puget
 
 ### Tools installation
 
@@ -78,6 +79,7 @@ scoop install clj-kondo
 scoop install deps.clj
 scoop install jet
 scoop install joker
+scoop install puget   # see this as development preview
 ```
 
 ### Updates
