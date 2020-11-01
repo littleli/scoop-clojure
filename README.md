@@ -1,4 +1,4 @@
-﻿# scoop-clojure
+# scoop-clojure
 
 This is a new and convenient way to install Clojure on Windows.
 
@@ -62,6 +62,7 @@ cmd-clojure
 * [bootleg](https://github.com/retrogradeorbit/bootleg): Simple template processing command line tool to help build static websites
 * [clj-kondo](https://github.com/borkdude/clj-kondo): A linter for Clojure code that sparks joy
 * [deps.clj](https://github.com/borkdude/deps.clj): A port of the clojure bash script to Clojure
+* [grasp](https://github.com/borkdude/grasp) (development preview): Grep Clojure code using clojure.spec regexes 
 * [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN and Transit, powered with a minimal query language
 * [joker](https://joker-lang.org): A small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter
 * [puget](https://github.com/borkdude/puget-cli) (development snapshot): A CLI version of puget
@@ -85,9 +86,10 @@ scoop install bb-web
 scoop install bootleg
 scoop install clj-kondo
 scoop install deps.clj
+scoop install grasp        # development preview
 scoop install jet
 scoop install joker
-scoop install puget   # see this as development preview
+scoop install puget        # development preview
 ```
 
 ### Updates
