@@ -65,7 +65,7 @@ cmd-clojure
 * [grasp](https://github.com/borkdude/grasp) (development preview): Grep Clojure code using clojure.spec regexes 
 * [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN and Transit, powered with a minimal query language
 * [joker](https://joker-lang.org): A small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter
-* [puget](https://github.com/borkdude/puget-cli) (development snapshot): A CLI version of puget
+* [puget](https://github.com/borkdude/puget-cli) (development preview): A CLI version of puget
 
 ### Tools installation
 
