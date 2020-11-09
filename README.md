@@ -65,6 +65,7 @@ cmd-clojure
 * [grasp](https://github.com/borkdude/grasp) (development preview): Grep Clojure code using clojure.spec regexes 
 * [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN and Transit, powered with a minimal query language
 * [joker](https://joker-lang.org): A small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter
+* [pgmig](https://github.com/leafclick/pgmig): Standalone PostgreSQL migration runner
 * [puget](https://github.com/borkdude/puget-cli) (development preview): A CLI version of puget
 
 ### Tools installation
@@ -89,6 +90,7 @@ scoop install deps.clj
 scoop install grasp        # development preview
 scoop install jet
 scoop install joker
+scoop install pgmig
 scoop install puget        # development preview
 ```
 

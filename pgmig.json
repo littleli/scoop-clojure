@@ -1,0 +1,23 @@
+{
+    "description": "Standalone PostgreSQL migration runner",
+    "homepage": "https://github.com/leafclick/pgmig",
+    "license": "Apache-2.0",
+    "version": "0.5.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/leafclick/pgmig/releases/download/v0.5.0/pgmig-0.5.0-windows-amd64.zip",
+            "hash": "18d5dd27f522b5486b2e00a8a3d71b1659c8e5d7956a53ba8dbcc4d9bd1f188b"
+        }
+    },
+    "bin": "pgmig.exe",
+    "depends": "extras/vcredist2015",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/leafclick/pgmig/releases/download/v$version/pgmig-$version-windows-amd64.zip"
+            }
+        }
+    }
+}
+
