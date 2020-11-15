@@ -8,11 +8,15 @@ This is a new and convenient way to install Clojure on Windows.
 
 First install Scoop installer. Installation steps for scoop and additional information can be found [here](http://scoop.sh). Don't worry installation is easy.
 
-Please consider a small support and
-
 <a href="https://www.buymeacoffee.com/alesrocks" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Coffee" height="51" width="217">
 </a>
+
+if you like this project.
+
+<hr>
+
+## Clojure
 
 To install Clojure with Scoop you have to add two important buckets first:
 
@@ -55,24 +59,25 @@ cmd-clj
 cmd-clojure
 ```
 
-## Tools available in this scoop bucket
+## Other tools available in this bucket
 
 * [babashka](https://github.com/borkdude/babashka): A port of the clojure bash script to Clojure
 * [bb-web](https://github.com/kloimhardt/babashka-web): A babashka fork for small web-apps
 * [bootleg](https://github.com/retrogradeorbit/bootleg): Simple template processing command line tool to help build static websites
 * [clj-kondo](https://github.com/borkdude/clj-kondo): A linter for Clojure code that sparks joy
 * [deps.clj](https://github.com/borkdude/deps.clj): A port of the clojure bash script to Clojure
-* [grasp](https://github.com/borkdude/grasp) (development preview): Grep Clojure code using clojure.spec regexes 
+* [grasp](https://github.com/borkdude/grasp): (development preview) Grep Clojure code using clojure.spec regexes 
 * [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN and Transit, powered with a minimal query language
 * [joker](https://joker-lang.org): A small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter
 * [pgmig](https://github.com/leafclick/pgmig): Standalone PostgreSQL migration runner
-* [puget](https://github.com/borkdude/puget-cli) (development preview): A CLI version of puget
+* [puget](https://github.com/borkdude/puget-cli): (development preview) A CLI version of puget
 
 ### Tools installation
 
 ### Install extras
 
 First add extras bucket to unlock required dependencies:
+
 ```sh
 scoop bucket add extras
 ```
@@ -97,6 +102,7 @@ scoop install puget        # development preview
 ### Updates
 
 These tools are updated quite often, don't forget to update regularly with:
+
 ```sh
 scoop update *
 ```
