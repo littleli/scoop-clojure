@@ -104,3 +104,9 @@ scoop update *
 ## Scoop directory
 
 This scoop bucket is also listed in [Scoop directory](https://rasa.github.io/scoop-directory/by-bucket.html#littleli_scoop-clojure) where to check other useful buckets with tons of packaged software.
+
+## Contributor Code of Conduct
+
+This project adheres to No Code of Conduct. We are all adults. I accept anyone's contributions. Nothing else matters.
+
+For more information please visit the [No Code of Conduct](https://github.com/domgetter/NCoC) homepage.
