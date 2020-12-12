@@ -2,11 +2,11 @@
     "description": "A linter for Clojure code that sparks joy",
     "homepage": "https://github.com/borkdude/clj-kondo",
     "license": "EPL-1.0",
-    "version": "2020.11.07",
+    "version": "2020.12.12",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/borkdude/clj-kondo/releases/download/v2020.11.07/clj-kondo-2020.11.07-windows-amd64.zip",
-            "hash": "6b5428c538713648123d035456d2eec66b02f7dbad6573e28289727e3ad03a81"
+            "url": "https://github.com/borkdude/clj-kondo/releases/download/v2020.12.12/clj-kondo-2020.12.12-windows-amd64.zip",
+            "hash": "116d944e7f2667ac62d71c1e2e3eaadf71e76c2ef58ed739bab62490bef7bab5"
         }
     },
     "depends": "extras/vcredist2015",
