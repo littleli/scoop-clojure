@@ -35,6 +35,7 @@ cat <<MANIFEST
             "hash": "${SHA256SUM}"
         }
     },
+    "depends": "extras/vcredist2015",
     "bin": "puget.exe",
     "checkver": "github",
     "autoupdate": {

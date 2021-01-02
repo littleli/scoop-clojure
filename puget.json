@@ -9,6 +9,7 @@
             "hash": "6126fbc5d03220cdfed3ca8dfccc09f0673effefddc4d088c41791dd0bcee8ad"
         }
     },
+    "depends": "extras/vcredist2015",
     "bin": "puget.exe",
     "checkver": "github",
     "autoupdate": {

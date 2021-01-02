@@ -9,6 +9,7 @@
             "hash": "a919b5c2feaf7c71531028d903afded8d50f05553d06c7d6568786eaebc9809d"
         }
     },
+    "depends": "extras/vcredist2015",
     "bin": "carve.exe",
     "checkver": "github",
     "autoupdate": {
