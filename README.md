@@ -64,6 +64,7 @@ cmd-clojure
 * [babashka](https://github.com/borkdude/babashka): A port of the clojure bash script to Clojure
 * [bb-web](https://github.com/kloimhardt/babashka-web): A babashka fork for small web-apps
 * [bootleg](https://github.com/retrogradeorbit/bootleg): Simple template processing command line tool to help build static websites
+* [carve](https://github.com/borkdude/carve): Carve will search through your code for unused vars and will remove them
 * [clj-kondo](https://github.com/borkdude/clj-kondo): A linter for Clojure code that sparks joy
 * [deps.clj](https://github.com/borkdude/deps.clj): A port of the clojure bash script to Clojure
 * [grasp](https://github.com/borkdude/grasp): (development preview) Grep Clojure code using clojure.spec regexes 
@@ -90,6 +91,7 @@ Now pick from the following tools:
 scoop install babashka
 scoop install bb-web
 scoop install bootleg
+scoop install carve
 scoop install clj-kondo
 scoop install deps.clj
 scoop install grasp        # development preview
