@@ -5,9 +5,14 @@
     "license": "EPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://ci.appveyor.com/api/buildjobs/by7ab7y21griaepq/artifacts/puget-cli-0.0.1-SNAPSHOT-windows-amd64.zip",
-            "hash": "58fc2e85bed3458b0ec5dda1c1e7fd3c6e049a426297e5621c37b4647b043615"
+            "url": "https://github.com/borkdude/puget-cli/releases/download/v0.0.1/puget-cli-0.0.1-windows-amd64.zip",
+            "hash": "6126fbc5d03220cdfed3ca8dfccc09f0673effefddc4d088c41791dd0bcee8ad"
         }
     },
-    "bin": "puget.exe"
+    "bin": "puget.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/borkdude/puget-cli/releases/download/v$version/puget-cli-$version-windows-amd64.zip"
+    }
 }
+
