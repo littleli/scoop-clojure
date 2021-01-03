@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/borkdude/puget-cli",
     "description": "A CLI version of puget",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "EPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/borkdude/puget-cli/releases/download/v0.0.1/puget-cli-0.0.1-windows-amd64.zip",
-            "hash": "6126fbc5d03220cdfed3ca8dfccc09f0673effefddc4d088c41791dd0bcee8ad"
+            "url": "https://github.com/borkdude/puget-cli/releases/download/v0.0.2/puget-cli-0.0.2-windows-amd64.zip",
+            "hash": "8297185a057cea95b306238c6a0bcad1020af2923d4918f9aaf0a24a5efb7b18"
         }
     },
     "depends": "extras/vcredist2015",
