@@ -13,6 +13,7 @@ CURL=`which curl`
 [ -n ${SHASUM} ] && [ -n ${CURL} ] || exit 2
 
 TARGET="https://github.com/leafclick/pgmig/releases/download/v${VERSION}/pgmig-${VERSION}-windows-amd64.zip"
+AUTOUPDATE="https://github.com/leafclick/pgmig/releases/download/v\$version/pgmig-\$version-windows-amd64.zip"
 
 CHECKVER_CODE=`curl -X HEAD -m 3 -sfw "%{response_code}" ${TARGET}`
 if [ $CHECKVER_CODE -ne 302 ]; then
@@ -24,10 +25,11 @@ SHA256SUM=$(curl -sLS --fail-early "${TARGET}" | shasum -a 256 -b | cut -f1 -d\ 
 
 cat <<MANIFEST
 {
+    "version": "${VERSION}",
     "description": "Standalone PostgreSQL migration runner",
     "homepage": "https://github.com/leafclick/pgmig",
     "license": "Apache-2.0",
-    "version": "${VERSION}",
+    "depends": "extras/vcredist2015",
     "architecture": {
         "64bit": {
             "url": "${TARGET}",
@@ -35,12 +37,11 @@ cat <<MANIFEST
         }
     },
     "bin": "pgmig.exe",
-    "depends": "extras/vcredist2015",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/leafclick/pgmig/releases/download/v\$version/pgmig-\$version-windows-amd64.zip"
+                "url": "${AUTOUPDATE}"
             }
         }
     }

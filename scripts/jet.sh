@@ -13,6 +13,7 @@ CURL=`which curl`
 [ -n ${SHASUM} ] && [ -n ${CURL} ] || exit 2
 
 TARGET="https://github.com/borkdude/jet/releases/download/v${VERSION}/jet-${VERSION}-windows-amd64.zip"
+AUTOUPDATE="https://github.com/borkdude/jet/releases/download/v\$version/jet-\$version-windows-amd64.zip"
 
 CHECKVER_CODE=`curl -X HEAD -m 3 -sfw "%{response_code}" ${TARGET}`
 if [ $CHECKVER_CODE -ne 302 ]; then
@@ -24,18 +25,26 @@ SHA256SUM=$(curl -sLS --fail-early "${TARGET}" | shasum -a 256 -b | cut -f1 -d\ 
 
 cat <<MANIFEST  
 {
+    "version": "${VERSION}",
     "description": "CLI to transform between JSON, EDN and Transit, powered with a minimal query language",
     "homepage": "https://github.com/borkdude/jet",
     "license": "EPL-1.0",
-    "version": "${VERSION}",
+    "depends": "extras/vcredist2010",
     "architecture": {
         "64bit": {
             "url": "${TARGET}",
             "hash": "${SHA256SUM}"
         }
     },
-    "depends": "extras/vcredist2010",
-    "bin": "jet.exe"
+    "bin": "jet.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "${AUTOUPDATE}"
+            }
+        }
+    }    
 }
 
 MANIFEST

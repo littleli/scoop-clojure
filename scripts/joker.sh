@@ -13,6 +13,7 @@ CURL=`which curl`
 [ -n ${SHASUM} ] && [ -n ${CURL} ] || exit 2
 
 TARGET="https://github.com/candid82/joker/releases/download/v${VERSION}/joker-${VERSION}-win-amd64.zip"
+AUTOUPDATE="https://github.com/candid82/joker/releases/download/v\$version/joker-\$version-win-amd64.zip"
 
 CHECKVER_CODE=`curl -X HEAD -m 3 -sfw "%{response_code}" ${TARGET}`
 if [ $CHECKVER_CODE -ne 302 ]; then
@@ -24,9 +25,9 @@ SHA256SUM=$(curl -sLS --fail-early "${TARGET}" | shasum -a 256 -b | cut -f1 -d\ 
 
 cat <<MANIFEST  
 {
-    "homepage": "https://joker-lang.org",
-    "description": "Joker is a small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter",
     "version": "${VERSION}",
+    "description": "Joker is a small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter",
+    "homepage": "https://joker-lang.org",
     "license": "EPL-1.0",
     "architecture": {
         "64bit": {
@@ -37,7 +38,11 @@ cat <<MANIFEST
     "bin": "joker.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/candid82/joker/releases/download/v\$version/joker-\$version-win-amd64.zip"
+        "architecture": {
+            "64bit": {
+                "url": "${AUTOUPDATE}"
+            }
+        }
     }
 }
 

@@ -24,10 +24,18 @@ SHA256SUM=$(curl -sS --fail-early https://download.clojure.org/install/clojure-t
 
 cat <<MANIFEST  
 {
-    "homepage": "https://clojure.org",
+    "version": "${VERSION}",
     "description": "Clojure is a modern, dynamic, and functional dialect of the Lisp programming language on the Java platform",
-    "version": "$VERSION",
+    "homepage": "https://clojure.org",
     "license": "EPL-1.0",
+    "suggest": {
+        "JDK": [
+            "java/adopt8-hotspot",
+            "java/adoptopenjdk-lts-hotspot",
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
     "url": "https://download.clojure.org/install/clojure-tools-${VERSION}.zip",
     "hash": "${SHA256SUM}",
     "extract_dir": "ClojureTools",
@@ -46,14 +54,6 @@ cat <<MANIFEST
             "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
         ]
     ],
-    "suggest": {
-        "JDK": [
-            "java/adopt8-hotspot",
-            "java/adoptopenjdk-lts-hotspot",
-            "java/oraclejdk",
-            "java/openjdk"
-        ]
-    },
     "checkver": {
         "url": "https://github.com/clojure/tools.deps.alpha/wiki/clj-on-Windows",
         "re": "${RE}"

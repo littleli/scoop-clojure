@@ -25,21 +25,25 @@ SHA256SUM=$(curl -sLS --fail-early "${TARGET}" | shasum -a 256 -b | cut -f1 -d\ 
 
 cat <<MANIFEST  
 {
-    "homepage": "https://github.com/borkdude/carve",
-    "description": "Carve will search through your code for unused vars and will remove them.",
     "version": "${VERSION}",
+    "description": "Carve will search through your code for unused vars and will remove them.",
+    "homepage": "https://github.com/borkdude/carve",
     "license": "EPL-1.0",
+    "depends": "extras/vcredist2015",
     "architecture": {
         "64bit": {
             "url": "${TARGET}",
             "hash": "${SHA256SUM}"
         }
     },
-    "depends": "extras/vcredist2015",
     "bin": "carve.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "${AUTOUPDATE}"
+        "architecture": {
+            "64bit": {
+                "url": "${AUTOUPDATE}"
+            }
+        }
     }
 }
 
