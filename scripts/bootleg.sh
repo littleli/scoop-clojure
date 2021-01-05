@@ -13,6 +13,7 @@ CURL=`which curl`
 [ -n ${SHASUM} ] && [ -n ${CURL} ] || exit 2
 
 TARGET="https://github.com/retrogradeorbit/bootleg/releases/download/v${VERSION}/bootleg-${VERSION}-windows-amd64.zip"
+AUTOUPDATE="https://github.com/retrogradeorbit/bootleg/releases/download/v\$version/bootleg-\$version-windows-amd64.zip"
 
 CHECKVER_CODE=`curl -X HEAD -m 3 -sfw "%{response_code}" ${TARGET}`
 if [ $CHECKVER_CODE -ne 302 ]; then

@@ -16,7 +16,7 @@ TARGET="https://github.com/borkdude/babashka/releases/download/v${VERSION}/babas
 AUTOUPDATE="https://github.com/borkdude/babashka/releases/download/v\$version/babashka-\$version-windows-amd64.zip"
 
 CHECKVER_CODE=`curl -X HEAD -m 3 -sfw "%{response_code}" ${TARGET}`
-if [ $CHECKVER_CODE -ne 302 ]; then
+if [ $CHECKVER_CODE -ne 301 ]; then
 	echo "Version ${VERSION} does not exist" >&2
 	exit 3
 fi
