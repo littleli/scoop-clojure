@@ -25,21 +25,25 @@ SHA256SUM=$(curl -sLS --fail-early "${TARGET}" | shasum -a 256 -b | cut -f1 -d\ 
 
 cat <<MANIFEST  
 {
-    "homepage": "https://github.com/borkdude/puget-cli",
-    "description": "A CLI version of puget",
     "version": "${VERSION}",
+    "description": "A CLI version of puget",
+    "homepage": "https://github.com/borkdude/puget-cli",
     "license": "EPL-1.0",
+    "depends": "extras/vcredist2015",
     "architecture": {
         "64bit": {
             "url": "${TARGET}",
             "hash": "${SHA256SUM}"
         }
     },
-    "depends": "extras/vcredist2015",
     "bin": "puget.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "${AUTOUPDATE}"
+        "architecture": {
+            "64bit": {
+                "url": "${AUTOUPDATE}"
+            }
+        }
     }
 }
 

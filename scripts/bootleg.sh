@@ -24,18 +24,26 @@ SHA256SUM=$(curl -sLS --fail-early "${TARGET}" | shasum -a 256 -b | cut -f1 -d\ 
 
 cat <<MANIFEST  
 {
+    "version": "${VERSION}",
     "description": "Simple template processing command line tool to help build static websites",
     "homepage": "https://github.com/retrogradeorbit/bootleg",
     "license": "EPL-2.0",
-    "version": "${VERSION}",
+    "depends": "extras/vcredist2010",
     "architecture": {
         "64bit": {
             "url": "${TARGET}",
             "hash": "${SHA256SUM}"
         }
     },
-    "depends": "extras/vcredist2010",
-    "bin": "bootleg.exe"
+    "bin": "bootleg.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "${AUTOUPDATE}"
+            }
+        }
+    }
 }
 
 MANIFEST
