@@ -1,8 +1,16 @@
 {
-    "homepage": "https://clojure.org",
-    "description": "Clojure is a modern, dynamic, and functional dialect of the Lisp programming language on the Java platform",
     "version": "1.10.1.763",
+    "description": "Clojure is a modern, dynamic, and functional dialect of the Lisp programming language on the Java platform",
+    "homepage": "https://clojure.org",
     "license": "EPL-1.0",
+    "suggest": {
+        "JDK": [
+            "java/adopt8-hotspot",
+            "java/adoptopenjdk-lts-hotspot",
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
     "url": "https://download.clojure.org/install/clojure-tools-1.10.1.763.zip",
     "hash": "b504683156cfb007536301be88fb455c1c45a05698def53ba84f0b090297efab",
     "extract_dir": "ClojureTools",
@@ -21,14 +29,6 @@
             "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
         ]
     ],
-    "suggest": {
-        "JDK": [
-            "java/adopt8-hotspot",
-            "java/adoptopenjdk-lts-hotspot",
-            "java/oraclejdk",
-            "java/openjdk"
-        ]
-    },
     "checkver": {
         "url": "https://github.com/clojure/tools.deps.alpha/wiki/clj-on-Windows",
         "re": "win-install-(\\d+\\.\\d+\\.\\d+\\.\\d+).ps1"
