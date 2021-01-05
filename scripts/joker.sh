@@ -26,7 +26,7 @@ SHA256SUM=$(curl -sLS --fail-early "${TARGET}" | shasum -a 256 -b | cut -f1 -d\ 
 cat <<MANIFEST  
 {
     "version": "${VERSION}",
-    "description": "Joker is a small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter",
+    "description": "Joker is a small interpreted dialect of Clojure written in Go. Also serves as Clojure(Script) linter",
     "homepage": "https://joker-lang.org",
     "license": "EPL-1.0",
     "architecture": {
@@ -36,7 +36,9 @@ cat <<MANIFEST
         }
     },
     "bin": "joker.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/candid82/joker"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
