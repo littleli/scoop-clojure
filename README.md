@@ -1,4 +1,4 @@
-# scoop-clojure
+# scoop-clojure [![Build status](https://ci.appveyor.com/api/projects/status/u9ru7wvaoslc4coh/branch/master?svg=true)](https://ci.appveyor.com/project/littleli/scoop-clojure/branch/master)
 
 This is a new and convenient way to install Clojure on Windows.
 
