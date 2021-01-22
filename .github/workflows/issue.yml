@@ -13,5 +13,6 @@ jobs:
         if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
         env:
           SHOVEL: '1'
+          GIT_USERNAME: 'Aleš Najmann'
           GITH_EMAIL: ales.najmann@gmail.com
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

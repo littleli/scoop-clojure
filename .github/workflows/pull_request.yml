@@ -12,5 +12,6 @@ jobs:
       uses: Ash258/Scoop-GithubActions@stable-win
       env:
         SHOVEL: '1'
+        GIT_USERNAME: 'Aleš Najmann'
         GITH_EMAIL: ales.najmann@gmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
