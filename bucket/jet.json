@@ -18,6 +18,5 @@
                 "url": "https://github.com/borkdude/jet/releases/download/v$version/jet-$version-windows-amd64.zip"
             }
         }
-    }    
+    }
 }
-

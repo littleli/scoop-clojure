@@ -26,7 +26,7 @@ To install Clojure with Scoop you have to add two important buckets first:
 # you can skip this step otherwise
 scoop install git
 
-# add scoop bucket for Java 
+# add scoop bucket for Java
 scoop bucket add java
 
 # add scoop bucket for clojure build
@@ -67,7 +67,7 @@ cmd-clojure
 * [carve](https://github.com/borkdude/carve): Carve will search through your code for unused vars and will remove them
 * [clj-kondo](https://github.com/borkdude/clj-kondo): A linter for Clojure code that sparks joy
 * [deps.clj](https://github.com/borkdude/deps.clj): A port of the clojure bash script to Clojure
-* [grasp](https://github.com/borkdude/grasp): (development preview) Grep Clojure code using clojure.spec regexes 
+* [grasp](https://github.com/borkdude/grasp): (development preview) Grep Clojure code using clojure.spec regexes
 * [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN and Transit, powered with a minimal query language
 * [joker](https://joker-lang.org): A small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter
 * [pgmig](https://github.com/leafclick/pgmig): Standalone PostgreSQL migration runner
