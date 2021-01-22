@@ -11,7 +11,8 @@ jobs:
     - name: Excavate
       uses: Ash258/Scoop-GithubActions@stable-win
       env:
-        GITH_EMAIL: ales.najmann@gmail.com
+        GIT_USERNAME: 'Aleš Najmann'
+        GITH_EMAIL: 'ales.najmann@gmail.com'
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SHOVEL: '1'
         SCOOP_BRANCH: 'NEW'
