@@ -66,6 +66,7 @@ cmd-clojure
 * [bootleg](https://github.com/retrogradeorbit/bootleg): Simple template processing command line tool to help build static websites
 * [carve](https://github.com/borkdude/carve): Carve will search through your code for unused vars and will remove them
 * [clj-kondo](https://github.com/borkdude/clj-kondo): A linter for Clojure code that sparks joy
+* [clojure-lsp](https://github.com/clojure-lsp/clojure-lsp): Language server for Clojure
 * [deps.clj](https://github.com/borkdude/deps.clj): A port of the clojure bash script to Clojure
 * [grasp](https://github.com/borkdude/grasp): (development preview) Grep Clojure code using clojure.spec regexes
 * [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN and Transit, powered with a minimal query language
@@ -93,6 +94,7 @@ scoop install bb-web
 scoop install bootleg
 scoop install carve
 scoop install clj-kondo
+scoop install clojure-lsp
 scoop install deps.clj
 scoop install grasp        # development preview
 scoop install jet
