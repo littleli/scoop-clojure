@@ -1,13 +1,13 @@
 {
-    "version": "2021.02.19-23.08.40",
+    "version": "2021.02.21-21.02.51",
     "description": "Language Server for Clojure",
     "homepage": "https://clojure-lsp.github.io/clojure-lsp",
     "license": "MIT",
     "depends": "extras/vcredist2015",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/clojure-lsp/clojure-lsp/releases/download/2021.02.19-23.08.40/clojure-lsp-native-windows-amd64.zip",
-            "hash": "217d69813d920e57415b5cd80c21b8915ceeed6d953a583474ba7272c6aa285c"
+            "url": "https://github.com/clojure-lsp/clojure-lsp/releases/download/2021.02.21-21.02.51/clojure-lsp-native-windows-amd64.zip",
+            "hash": "ee231d53392289ed795cb6e429083cbf02f32503647ad0a1c8b1fbda6b4aee60"
         }
     },
     "bin": "clojure-lsp.exe",
