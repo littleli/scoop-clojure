@@ -111,6 +111,16 @@ These tools are updated quite often, don't forget to update regularly with:
 scoop update *
 ```
 
+### Uninstall
+
+If you had enough of Clojure for some reason. It's easy to uninstall it using scoop:
+
+```sh
+scoop uninstall clojure
+```
+
+Also applies to every tool above.
+
 ## Scoop directory
 
 This scoop bucket is also listed in [Scoop directory](https://rasa.github.io/scoop-directory/by-bucket.html#littleli_scoop-clojure) where to check other useful buckets with tons of packaged software.
