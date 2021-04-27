@@ -2,7 +2,7 @@
     "version": "2021.04.26",
     "description": "Grep-like utility based on Lucene Monitor.",
     "homepage": "https://github.com/dainiusjocas/lucene-grep",
-    "license": "The Apache License, Version 2.0",
+    "license": "Apache-2.0",
     "depends": "extras/vcredist2015",
     "architecture": {
         "64bit": {
