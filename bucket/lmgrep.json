@@ -1,0 +1,22 @@
+{
+    "version": "2021.04.26",
+    "description": "Grep-like utility based on Lucene Monitor.",
+    "homepage": "https://github.com/dainiusjocas/lucene-grep",
+    "license": "Apache-2.0",
+    "depends": "extras/vcredist2015",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dainiusjocas/lucene-grep/releases/download/v2021.04.26/lmgrep-v2021.04.26-windows-amd64.zip",
+            "hash": "fce015a351da59aef040847caa16d841b52195215d82e532af947af4463b3647"
+        }
+    },
+    "bin": "lmgrep.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dainiusjocas/lucene-grep/releases/download/v$version/lmgrep-v$version-windows-amd64.zip"
+            }
+        }
+    }
+}
