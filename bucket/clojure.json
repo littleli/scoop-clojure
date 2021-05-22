@@ -30,8 +30,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/clojure/tools.deps.alpha/wiki/clj-on-Windows",
-        "re": "win-install-(\\d+\\.\\d+\\.\\d+\\.\\d+).ps1"
+        "url": "https://clojure.org/releases/tools",
+        "re": "(\\d+\\.\\d+\\.\\d+\\.\\d+) \\("
     },
     "autoupdate": {
         "url": "https://download.clojure.org/install/clojure-tools-$version.zip"
