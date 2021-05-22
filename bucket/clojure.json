@@ -31,7 +31,7 @@
     ],
     "checkver": {
         "url": "https://clojure.org/releases/tools",
-        "re": "(\\d+\\.\\d+\\.\\d+\\.\\d+) \\("
+        "regex": "(\\d+\\.\\d+\\.\\d+\\.\\d+) \\("
     },
     "autoupdate": {
         "url": "https://download.clojure.org/install/clojure-tools-$version.zip"
