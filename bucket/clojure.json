@@ -30,8 +30,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://clojure.org/releases/tools",
-        "regex": "(\\d+\\.\\d+\\.\\d+\\.\\d+) \\("
+        "github": "https://github.com/clojure/brew-install"
     },
     "autoupdate": {
         "url": "https://download.clojure.org/install/clojure-tools-$version.zip"
