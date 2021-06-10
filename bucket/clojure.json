@@ -1,5 +1,5 @@
 {
-    "version": "1.10.3.875",
+    "version": "1.10.3.855",
     "description": "Clojure is a modern, dynamic, and functional dialect of the Lisp programming language on the Java platform",
     "homepage": "https://clojure.org",
     "license": "EPL-1.0",
@@ -11,8 +11,8 @@
             "java/openjdk"
         ]
     },
-    "url": "https://download.clojure.org/install/clojure-tools-1.10.3.875.zip",
-    "hash": "9cfa6cb803cdd4d5da491bf89abba74c6e7cb8523bebdfbe091e7c303200081b",
+    "url": "https://download.clojure.org/install/clojure-tools-1.10.3.855.zip",
+    "hash": "be53a85c7caa97e6b63e95a8be95b088a78ea9000e4936628bb2a419df1a22e0",
     "extract_dir": "ClojureTools",
     "psmodule": {
         "name": "ClojureTools"
