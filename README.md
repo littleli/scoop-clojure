@@ -4,7 +4,7 @@ This is a new and convenient way to install Clojure on Windows.
 
 - [WSL2](https://docs.microsoft.com/en-us/windows/wsl/faq) is not required
 - Administrator privileges are not required
-- High chance it works in corporate Windows systems
+- High chance it works on your corporate Windows system
 
 First install Scoop installer. Installation steps for scoop and additional information can be found [here](http://scoop.sh). Don't worry installation is easy.
 
