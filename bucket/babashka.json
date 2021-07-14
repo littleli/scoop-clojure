@@ -1,5 +1,5 @@
 {
-    "version": "0.4.6",
+    "version": "0.5.0",
     "description": "A Clojure babushka for the grey areas of Bash",
     "homepage": "https://github.com/borkdude/babashka",
     "license": "EPL-1.0",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/borkdude/babashka/releases/download/v0.4.6/babashka-0.4.6-windows-amd64.zip",
-            "hash": "cd695686beaf2cb86f2d6414d9c6cac2c676b0c9096f633d70453c8b71a163ec"
+            "url": "https://github.com/borkdude/babashka/releases/download/v0.5.0/babashka-0.5.0-windows-amd64.zip",
+            "hash": "a13ff95a7496957d6dcd3febfe10fc17fab3518b893d55f781eee9f83d49382c"
         }
     },
     "bin": "bb.exe",
