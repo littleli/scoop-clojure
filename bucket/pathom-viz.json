@@ -1,10 +1,10 @@
 {
-    "version": "2021.7.11",
+    "version": "2021.7.16",
     "description": "Visualization tools for Pathom",
     "homepage": "https://github.com/wilkerlucio/pathom-viz",
     "license": "Freeware",
-    "url": "https://github.com/wilkerlucio/pathom-viz/releases/download/v2021.7.11/Pathom-Viz-Setup-2021.7.11.exe#/dl.7z",
-    "hash": "e903a14c734f5bf87e759d4ace6dbd0a913963a160e92246e29d91d885f8ffc0",
+    "url": "https://github.com/wilkerlucio/pathom-viz/releases/download/v2021.7.16/Pathom-Viz-Setup-2021.7.16.exe#/dl.7z",
+    "hash": "26fbe433b23e87ef8d8969c2552a1490400dcedc73c92d60a6524a5c2ab28594",
     "architecture": {
         "64bit": {
             "installer": {
