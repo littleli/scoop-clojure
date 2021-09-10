@@ -1,12 +1,12 @@
 {
-    "version": "0.5.7",
+    "version": "0.5.8",
     "description": "A simple, fast and durable Datalog database",
     "homepage": "https://github.com/juji-io/datalevin",
     "license": "EPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/juji-io/datalevin/releases/download/0.5.7/dtlv-0.5.7-windows-amd64.zip",
-            "hash": "402f3a61a0dc12acae42967d11286b148bf7ced68fccf1911d26e7fe42124eb2"
+            "url": "https://github.com/juji-io/datalevin/releases/download/0.5.8/dtlv-0.5.8-windows-amd64.zip",
+            "hash": "edd18b785c02098bc544e156204f81b0ceaf003bdeae3f7643bf2f12eaec8a50"
         }
     },
     "bin": "dtlv.exe",
