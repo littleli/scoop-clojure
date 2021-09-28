@@ -12,7 +12,10 @@
         }
     },
     "bin": "neil.bat",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/babashka/neil/releases",
+        "regex": "\/releases\/tag\/v([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
