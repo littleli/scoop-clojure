@@ -13,8 +13,8 @@
     },
     "bin": "neil.bat",
     "checkver": {
-        "url": "https://github.com/babashka/neil/releases",
-        "regex": "\/releases\/tag\/v([\\d.]+)"
+        "url": "https://api.github.com/repos/babashka/neil/tags",
+        "regex": "\"v([\\d.]+)\""
     },
     "autoupdate": {
         "architecture": {
