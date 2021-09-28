@@ -77,6 +77,10 @@ cmd-clojure
 - [pgmig](https://github.com/leafclick/pgmig): Standalone PostgreSQL migration runner
 - [puget](https://github.com/borkdude/puget-cli): A CLI version of puget
 
+## Babashka based utilities
+
+- [neil](https://github.com/babashka/neil): A CLI to add common aliases and features to deps.edn-based projects
+
 ### Tools installation
 
 ### Install extras
@@ -107,6 +111,12 @@ scoop install lmgrep
 scoop install pathom-viz
 scoop install pgmig
 scoop install puget
+```
+
+or babashka based utilities:
+
+```sh
+scoop install neil
 ```
 
 ### Updates
