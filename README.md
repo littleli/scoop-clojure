@@ -63,6 +63,7 @@ cmd-clojure
 
 - [babashka](https://github.com/borkdude/babashka): A port of the clojure bash script to Clojure
 - [bb-web](https://github.com/kloimhardt/babashka-web): A babashka fork for small web-apps
+- [bibcal](https://github.com/johanthoren/bibcal): Calculate dates based on the Bible and the 1st Book of Enoch
 - [bootleg](https://github.com/retrogradeorbit/bootleg): Simple template processing command line tool to help build static websites
 - [carve](https://github.com/borkdude/carve): Carve will search through your code for unused vars and will remove them
 - [clj-kondo](https://github.com/borkdude/clj-kondo): A linter for Clojure code that sparks joy
@@ -98,6 +99,7 @@ Now pick from the following tools:
 ```sh
 scoop install babashka
 scoop install bb-web
+scoop install bibcal
 scoop install bootleg
 scoop install carve
 scoop install clj-kondo
