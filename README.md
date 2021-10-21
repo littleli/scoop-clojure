@@ -77,6 +77,7 @@ cmd-clojure
 - [pathom-viz](https://github.com/wilkerlucio/pathom-viz): Visualization tools for Pathom
 - [pgmig](https://github.com/leafclick/pgmig): Standalone PostgreSQL migration runner
 - [puget](https://github.com/borkdude/puget-cli): A CLI version of puget
+- [shh](https://github.com/askonomm/shh): A CLI password manager designed for efficiency
 
 ## Babashka based utilities
 
@@ -113,6 +114,7 @@ scoop install lmgrep
 scoop install pathom-viz
 scoop install pgmig
 scoop install puget
+scoop install shh
 ```
 
 or babashka based utilities:
