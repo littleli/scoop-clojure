@@ -1,14 +1,14 @@
 {
-    "version": "0.0.15",
+    "version": "0.0.17",
     "description": "A CLI to add common aliases and features to deps.edn-based projects",
     "homepage": "https://github.com/babashka/neil",
     "license": "MIT",
     "depends": "scoop-clojure/babashka",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/babashka/neil/archive/refs/tags/v0.0.15.zip",
-            "hash": "502a056234c12e02de4edd8643b37db87f8259213bc2b899b7823e2ec490607d",
-            "extract_dir": "neil-0.0.15"
+            "url": "https://github.com/babashka/neil/archive/refs/tags/v0.0.17.zip",
+            "hash": "fd38fb70b238e8d53df1c6efcf3041ee77b9678771191f93a40af5ab6e6d38a8",
+            "extract_dir": "neil-0.0.17"
         }
     },
     "bin": "neil.bat",
