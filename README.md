@@ -36,8 +36,8 @@ scoop bucket add scoop-clojure https://github.com/littleli/scoop-clojure
 Now we are ready to install Java and Clojure by issuing following commands:
 
 ```sh
-# install Java runtime and compiler
-scoop install adoptopenjdk-lts-hotspot
+# install TCK certified Java runtime and compiler if you need to (optional)
+scoop install temurin-lts-jdk
 
 # install official clojure tools
 scoop install clojure
