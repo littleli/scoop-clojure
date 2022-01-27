@@ -13,13 +13,13 @@
     "bin": "cq.exe",
     "checkver": {
         "url": "https://github.com/markus-wa/cq/releases",
-        "re": "tag/([\\d.]+)-([\\d.]+)",
+        "regex": "tag/([\\d.]+)-([\\d.]+)",
         "replace": "${1}-${2}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/markus-wa/cq/releases/download/$match1-$match2/cq-native-windows.exe#/cq.exe"
+                "url": "https://github.com/markus-wa/cq/releases/download/$version/cq-native-windows.exe#/cq.exe"
             }
         }
     }
