@@ -71,7 +71,7 @@ cmd-clojure
 - [cq](https://github.com/markus-wa/cq): Clojure Command-line Data Processor for JSON, YAML, EDN, XML and more
 - [datalevin](https://github.com/juji-io/datalevin): A simple, fast and durable Datalog database
 - [deps.clj](https://github.com/borkdude/deps.clj): A port of the clojure bash script to Clojure
-- [grasp](https://github.com/borkdude/grasp): (development preview) Grep Clojure code using clojure.spec regexes
+- [grasp](https://github.com/borkdude/grasp): Grep Clojure code using clojure.spec regexes
 - [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN and Transit, powered with a minimal query language
 - [joker](https://joker-lang.org): A small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter
 - [lmgrep](https://github.com/dainiusjocas/lucene-grep): A Grep-like utility based on Lucene Monitor
@@ -109,7 +109,7 @@ scoop install clojure-lsp
 scoop install cq
 scoop install datalevin
 scoop install deps.clj
-scoop install grasp        # development preview
+scoop install grasp
 scoop install jet
 scoop install joker
 scoop install lmgrep
