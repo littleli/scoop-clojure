@@ -62,6 +62,7 @@ cmd-clojure
 ## Other tools available in this bucket
 
 - [babashka](https://github.com/borkdude/babashka): A port of the clojure bash script to Clojure
+- [bb-http-server](https://github.com/babashka/http-server): Babashka to serve static assets
 - [bb-web](https://github.com/kloimhardt/babashka-web): A babashka fork for small web-apps
 - [bibcal](https://github.com/johanthoren/bibcal): Calculate dates based on the Bible and the 1st Book of Enoch
 - [bootleg](https://github.com/retrogradeorbit/bootleg): Simple template processing command line tool to help build static websites
@@ -100,6 +101,7 @@ Now pick from the following tools:
 
 ```sh
 scoop install babashka
+scoop install bb-http-server
 scoop install bb-web
 scoop install bibcal
 scoop install bootleg
