@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/babashka/http-server/archive/refs/tags/v$version.jar"
+                "url": "https://github.com/babashka/http-server/releases/download/v$version/http-server.jar"
             }
         }
     }
