@@ -1,13 +1,13 @@
 {
-    "version": "0.1.9",
+    "version": "0.1.10",
     "description": "Babashka to serve static assets",
     "homepage": "https://github.com/babashka/http-server",
     "license": "MIT",
     "depends": "scoop-clojure/babashka",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/babashka/http-server/releases/download/v0.1.9/http-server.jar",
-            "hash": "eae110802bb19d9cca864ae856fb203c669726c99645550f643f63ece14f11d1"
+            "url": "https://github.com/babashka/http-server/releases/download/v0.1.10/http-server.jar",
+            "hash": "255b68e7ddeb23222c94f915b8e38e59b38f24fa7c188f42e381ca9cdf933784"
         }
     },
     "pre_install": "Set-Content \"$dir\\http-server.bat\" \"@bb.exe \"\"%~dp0http-server.jar\"\" %*\"",
