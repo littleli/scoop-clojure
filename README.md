@@ -80,6 +80,7 @@ cmd-clojure
 - [pgmig](https://github.com/leafclick/pgmig): Standalone PostgreSQL migration runner
 - [puget](https://github.com/borkdude/puget-cli): A CLI version of puget
 - [shh](https://github.com/askonomm/shh): A CLI password manager designed for efficiency
+- [trenchman](https://github.com/athos/trenchman): A standalone nREPL/prepl client written in Go and heavily inspired by [Grenchman](https://github.com/technomancy/grenchman)
 
 ## Babashka based utilities
 
@@ -119,6 +120,7 @@ scoop install pathom-viz
 scoop install pgmig
 scoop install puget
 scoop install shh
+scoop install trenchman
 ```
 
 or babashka based utilities:
