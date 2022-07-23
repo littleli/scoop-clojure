@@ -89,25 +89,4 @@
             "}",
         ],
     },
-    "Check for existing persist file": {
-        "prefix": "persistCheck",
-        "scope": "json,jsonc",
-        "body": [
-            "\"\\$file = '$1'\",",
-            "\"if (!(Test-Path \\\"\\$persist_dir\\\\\\\\\\$file\\\")) {\",",
-            "\"\t\\$CONT = @('$2')\",",
-            "\"\tSet-Content \\\"\\$dir\\\\\\\\\\$file\\\" $CONT -Encoding Ascii\",",
-            "\"}\"",
-        ],
-    },
-    "Inline persist check (With content)": {
-        "prefix": "persistInlineContent",
-        "scope": "json,jsonc",
-        "body": "\"if (! (Test-Path \\\"\\$persist_dir\\\\\\\\$1\\\")) { Set-Content \\\"\\$dir\\\\\\\\$1\\\" $2 -Encoding Ascii }\",",
-    },
-    "Inline persist check (without content)": {
-        "prefix": "persistInlineNoContent",
-        "scope": "json,jsonc",
-        "body": "\"if (! (Test-Path \\\"\\$persist_dir\\\\\\\\$1\\\")) { New-Item \\\"\\$dir\\\\\\\\$1\\\" | Out-Null }\",",
-    },
 }
