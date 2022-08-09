@@ -84,6 +84,7 @@ cmd-clojure
 
 ## Babashka based utilities
 
+- [eql-cli](https://github.com/lilactown/eql-cli): A CLI for executing EQL queries on EDN data
 - [neil](https://github.com/babashka/neil): A CLI to add common aliases and features to deps.edn-based projects
 
 ### Tools installation
@@ -126,6 +127,7 @@ scoop install trenchman
 or babashka based utilities:
 
 ```sh
+scoop install eql-cli
 scoop install neil
 ```
 
