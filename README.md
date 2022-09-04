@@ -61,7 +61,8 @@ cmd-clojure
 
 ## Other tools available in this bucket
 
-- [babashka](https://github.com/borkdude/babashka): A port of the clojure bash script to Clojure
+- [babashka](https://github.com/babashka/babashka): A port of the clojure bash script to Clojure
+- [bbin](https://github.com/babashka/bbin): Babashka script or project installer
 - [bb-http-server](https://github.com/babashka/http-server): Babashka to serve static assets
 - [bb-web](https://github.com/kloimhardt/babashka-web): A babashka fork for small web-apps
 - [bibcal](https://github.com/johanthoren/bibcal): Calculate dates based on the Bible and the 1st Book of Enoch
@@ -127,6 +128,7 @@ scoop install trenchman
 or babashka based utilities:
 
 ```sh
+scoop install bbin
 scoop install eql-cli
 scoop install neil
 ```
