@@ -62,7 +62,6 @@ cmd-clojure
 ## Other tools available in this bucket
 
 - [babashka](https://github.com/babashka/babashka): A port of the clojure bash script to Clojure
-- [bbin](https://github.com/babashka/bbin): Babashka script or project installer
 - [bb-http-server](https://github.com/babashka/http-server): Babashka to serve static assets
 - [bb-web](https://github.com/kloimhardt/babashka-web): A babashka fork for small web-apps
 - [bibcal](https://github.com/johanthoren/bibcal): Calculate dates based on the Bible and the 1st Book of Enoch
@@ -85,6 +84,7 @@ cmd-clojure
 
 ## Babashka based utilities
 
+- [bbin](https://github.com/babashka/bbin): Babashka script or project installer
 - [eql-cli](https://github.com/lilactown/eql-cli): A CLI for executing EQL queries on EDN data
 - [neil](https://github.com/babashka/neil): A CLI to add common aliases and features to deps.edn-based projects
 
