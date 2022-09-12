@@ -3,6 +3,10 @@
     "description": "Babashka script or project installer",
     "homepage": "https://github.com/babashka/bbin",
     "license": "MIT",
+    "notes": [
+        "Folder \"$env:USERPROFILE\\.bbin\\bin\" was added to your PATH environment variable.",
+        "You have to close terminal and open a new one to see an effect."
+    ],
     "depends": "scoop-clojure/babashka",
     "architecture": {
         "64bit": {
