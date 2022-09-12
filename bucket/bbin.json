@@ -4,7 +4,7 @@
     "homepage": "https://github.com/babashka/bbin",
     "license": "MIT",
     "notes": [
-        "Folder \"$env:USERPROFILE\\.babashka\\bbin\\bin\" was added to your PATH environment variable.",
+        "Folder ~\\.babashka\\bbin\\bin was added to your PATH environment variable.",
         "To see this change you have to restart your terminal application."
     ],
     "depends": "scoop-clojure/babashka",
