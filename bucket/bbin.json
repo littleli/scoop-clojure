@@ -12,10 +12,10 @@
         }
     },
     "installer": {
-        "script": "add_first_in_path \"$env:USERPROFILE\\.bbin\\bin\" $global"
+        "script": "add_first_in_path \"$env:USERPROFILE\\.babashka\\bbin\\bin\" $global"
     },
     "uninstaller": {
-        "script": "remove_from_path \"$env:USERPROFILE\\.bbin\\bin\" $global"
+        "script": "remove_from_path \"$env:USERPROFILE\\.babashka\\bbin\\bin\" $global"
     },
     "pre_install": [
         "Remove-Item \"$dir\\*\" -Recurse -Exclude 'bbin'",
