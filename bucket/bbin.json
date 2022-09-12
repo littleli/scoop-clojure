@@ -1,14 +1,14 @@
 {
-    "version": "0.0.11",
+    "version": "0.0.12",
     "description": "Babashka script or project installer",
     "homepage": "https://github.com/babashka/bbin",
     "license": "MIT",
     "depends": "scoop-clojure/babashka",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/babashka/bbin/archive/refs/tags/v0.0.11.zip",
-            "hash": "e4047b113bb28ba2a4953ae6b76fa0d6569ee191cedf8005c46201d0a9007ea8",
-            "extract_dir": "bbin-0.0.11"
+            "url": "https://github.com/babashka/bbin/archive/refs/tags/v0.0.12.zip",
+            "hash": "cf41e34d6239e7e82bc4d7439af81926073155c1265887580d96cdb935f4c200",
+            "extract_dir": "bbin-0.0.12"
         }
     },
     "installer": {
