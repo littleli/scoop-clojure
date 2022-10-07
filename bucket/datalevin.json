@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/juji-io/datalevin/releases/download/0.6.22/dtlv-0.6.22-windows-amd64.zip",
-            "hash": "36bfbab8f130b5a0b7270cdc30cef681d362b34acb0955b39b9d5c4b10cd619a"
+            "hash": "d04193a62cfcfdb406dc66b51565a2c3e8b1312c494ac816c5fd8870bade0714"
         }
     },
     "bin": "dtlv.exe",
