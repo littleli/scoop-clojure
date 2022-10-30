@@ -23,7 +23,8 @@
         "clojure.exe"
     ],
     "checkver": {
-        "github": "https://github.com/casselc/clj-msi"
+        "url": "https://api.github.com/repos/casselc/clj-msi/tags",
+        "regex": "\"v([\\d.]+)\""
     },
     "autoupdate": {
         "url": "https://github.com/casselc/clj-msi/releases/download/$version/clojure-$version.msi"
