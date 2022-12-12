@@ -40,10 +40,10 @@ Now we are ready to install Java and Clojure by issuing following commands:
 scoop install temurin-lts-jdk
 
 # install official clojure tools
-scoop install clojure
+scoop install clj-deps
 
 # update to the newest version
-scoop update clojure
+scoop update clj-deps
 ```
 
 After successfully running steps above, you should be able to run Clojure with following:
@@ -52,12 +52,7 @@ After successfully running steps above, you should be able to run Clojure with f
 clj
 ```
 
-To launch clojure from `cmd.exe` or tools like Emacs, you can use prepared shims:
-
-```sh
-cmd-clj
-cmd-clojure
-```
+Emacs users should now issue `clj` and `clojure` commands without hassle.
 
 ## Other tools available in this bucket
 
@@ -71,7 +66,6 @@ cmd-clojure
 - [clojure-lsp](https://github.com/clojure-lsp/clojure-lsp): Language server for Clojure
 - [cq](https://github.com/markus-wa/cq): Clojure Command-line Data Processor for JSON, YAML, EDN, XML and more
 - [datalevin](https://github.com/juji-io/datalevin): A simple, fast and durable Datalog database
-- [deps.clj](https://github.com/borkdude/deps.clj): A port of the clojure bash script to Clojure
 - [grasp](https://github.com/borkdude/grasp): Grep Clojure code using clojure.spec regexes
 - [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN and Transit, powered with a minimal query language
 - [joker](https://joker-lang.org): A small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter
@@ -113,7 +107,6 @@ scoop install clj-kondo
 scoop install clojure-lsp
 scoop install cq
 scoop install datalevin
-scoop install deps.clj
 scoop install grasp
 scoop install jet
 scoop install joker
@@ -146,7 +139,7 @@ scoop update *
 If you had enough of Clojure for some reason. It's easy to uninstall it using scoop:
 
 ```sh
-scoop uninstall clojure
+scoop uninstall clj-deps
 ```
 
 Also applies to every tool above.
