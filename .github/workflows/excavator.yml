@@ -1,14 +1,16 @@
 on:
-  pull_request:
-    types: [opened]
-name: Pull Requests
+  workflow_dispatch:
+  schedule:
+    - cron: '15 */3 * * *'
+name: Excavator
 jobs:
-  pullRequestHandler:
-    name: PullRequestHandler
+  excavate:
+    name: Excavate
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@main
-      - name: PullRequestHandler
+      - name: Excavate
         uses: ScoopInstaller/GithubActions@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_UPDATED: 1
