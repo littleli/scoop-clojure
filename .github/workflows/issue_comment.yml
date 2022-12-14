@@ -1,17 +1,15 @@
 on:
   issue_comment:
-    types: [ created ]
+    types: [created]
 name: Commented Pull Request
 jobs:
   pullRequestHandler:
-    name: Pull Request Validator
+    name: PullRequestHandler
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@main
-    - name: Pull Request Validation
-      uses: shovel-org/GithubActions@main
-      if: startsWith(github.event.comment.body, '/verify')
-      env:
-        GIT_USERNAME: Aleš Najmann
-        GITH_EMAIL: ales.najmann@gmail.com
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@main
+      - name: PullRequestHandler
+        uses: ScoopInstaller/GithubActions@main
+        if: startsWith(github.event.comment.body, '/verify')
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
