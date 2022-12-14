@@ -15,7 +15,7 @@ environment:
 init:
 - ps: |
     (Get-PSProvider 'FileSystem').Home = 'C:\projects'
-    if (!(Test-Path "$env:SCOOP_HOME")) { git clone --quiet --depth=1 --branch 'NEW' "https://github.com/ScoopInstaller/Scoop" "$env:SCOOP_HOME" }
+    if (!(Test-Path "$env:SCOOP_HOME")) { git clone --quiet --depth=1 "https://github.com/ScoopInstaller/Scoop" "$env:SCOOP_HOME" }
 matrix:
   fast_finish: true
 for:
