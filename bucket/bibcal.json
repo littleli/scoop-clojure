@@ -1,13 +1,13 @@
 {
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "A cli calendar based on the Bible and the 1st Book of Enoch",
     "homepage": "https://github.com/johanthoren/bibcal",
     "license": "ISC",
     "depends": "extras/vcredist2015",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/johanthoren/bibcal/releases/download/1.0.2/bibcal-windows-x86_64.exe",
-            "hash": "136e18e4a66b36278414ef62786ec8e455ccf43cb9a31ebebdc014ae2652468a"
+            "url": "https://github.com/johanthoren/bibcal/releases/download/1.1.0/bibcal-windows-x86_64.exe",
+            "hash": "2804a7662ad22474e7023f98ed683c6f2d50ae0d285a1a6018f1411f477d3116"
         }
     },
     "bin": "bibcal.exe",
