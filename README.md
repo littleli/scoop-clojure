@@ -29,6 +29,9 @@ scoop install git
 # add scoop bucket for Java
 scoop bucket add java
 
+# add scoop bucket with extras, here there is a dependency on visual studio redistributable 'extras/vcredist2015'
+scoop bucket add extras
+
 # add scoop bucket for clojure build
 scoop bucket add scoop-clojure https://github.com/littleli/scoop-clojure
 ```
