@@ -46,14 +46,16 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/borkdude/deps.clj"
+        "url": "https://github.com/borkdude/deps.clj/releases",
+        "regex": "tag/v([\\d.]+)(-[\\d]+)?",
+        "replace": "${1}${2}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": [
                     "https://github.com/borkdude/deps.clj/releases/download/v$version/deps.clj-$version-windows-amd64.zip",
-                    "https://download.clojure.org/install/clojure-tools-$version.zip"
+                    "https://download.clojure.org/install/clojure-tools-$matchHead.zip"
                 ]
             }
         }
