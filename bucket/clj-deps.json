@@ -55,7 +55,7 @@
             "64bit": {
                 "url": [
                     "https://github.com/borkdude/deps.clj/releases/download/v$version/deps.clj-$version-windows-amd64.zip",
-                    "https://github.com/clojure/brew-install/releases/download/$matchHead/clojure-tools.zip"
+                    "https://github.com/clojure/brew-install/releases/download/${1}/clojure-tools.zip"
                 ]
             }
         }
