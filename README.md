@@ -70,6 +70,7 @@ Emacs users should now issue `clj` and `clojure` commands without hassle.
 - [cq](https://github.com/markus-wa/cq): Clojure Command-line Data Processor for JSON, YAML, EDN, XML and more
 - [datalevin](https://github.com/juji-io/datalevin): A simple, fast and durable Datalog database
 - [grasp](https://github.com/borkdude/grasp): Grep Clojure code using clojure.spec regexes
+- [hiccup-cli](https://github.com/kwrooijen/hiccup-cli): CLI to convert HTML to Hiccup syntax
 - [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN and Transit, powered with a minimal query language
 - [joker](https://joker-lang.org): A small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter
 - [lmgrep](https://github.com/dainiusjocas/lucene-grep): A Grep-like utility based on Lucene Monitor
@@ -110,6 +111,7 @@ scoop install clj-kondo
 scoop install clojure-lsp
 scoop install cq
 scoop install datalevin
+scoop install hiccup-cli
 scoop install grasp
 scoop install jet
 scoop install joker
