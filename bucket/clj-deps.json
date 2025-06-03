@@ -1,5 +1,5 @@
 {
-    "version": "1.12.1.1543",
+    "version": "1.12.1.1550",
     "description": "Modern, dynamic a functional dialect of the LISP programming language for JVM",
     "homepage": "https://clojure.org",
     "license": "EPL-1.0",
@@ -15,12 +15,12 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/borkdude/deps.clj/releases/download/v1.12.1.1543/deps.clj-1.12.1.1543-windows-amd64.zip",
-                "https://github.com/clojure/brew-install/releases/download/1.12.1.1543/clojure-tools.zip"
+                "https://github.com/borkdude/deps.clj/releases/download/v1.12.1.1550/deps.clj-1.12.1.1550-windows-amd64.zip",
+                "https://github.com/clojure/brew-install/releases/download/1.12.1.1550/clojure-tools.zip"
             ],
             "hash": [
-                "5a2b4c3e6bdca71d56ff0e8a700432cf7bd3495e043caba5b72cad025f4e6ab7",
-                "e0ec16b8d820f29b74d524f6f35cad634cd7b4a19ab13bbc3e254029e7be127a"
+                "1d39ed207e3c7ea6582a33c6cfde2dd22531320db86d416e32880bc78a973a8c",
+                "82a92dd2a931171973fda0479fd0a42fd30b6516121588ca16649bf78a7587e5"
             ]
         }
     },
