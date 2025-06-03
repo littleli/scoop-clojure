@@ -1,5 +1,5 @@
 {
-    "version": "1.12.1.1538",
+    "version": "1.12.1.1543",
     "description": "Use `clj-deps`. Clojure installation from a MSI package",
     "homepage": "https://clojure.org",
     "license": "EPL-1.0",
@@ -11,8 +11,8 @@
             "java/oraclejdk"
         ]
     },
-    "url": "https://github.com/casselc/clj-msi/releases/download/v1.12.1.1538/clojure-1.12.1.1538.msi",
-    "hash": "89866b06abb9ccada6ee97eeeeb1e7ab0278a14a5611e6c18b77bbc518cfa044",
+    "url": "https://github.com/casselc/clj-msi/releases/download/v1.12.1.1543/clojure-1.12.1.1543.msi",
+    "hash": "63dd338ad6b27b32b15291cff96d54485898e242c907dda6cfbc4a573c921085",
     "pre_install": [
         "Move-Item \"$dir\\PFiles\\clojure\\*\" \"$dir\\\"",
         "Remove-Item \"$dir\\PFiles\" -Force -Recurse"
