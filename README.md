@@ -158,3 +158,7 @@ This scoop bucket is also listed in [Scoop directory](https://rasa.github.io/sco
 This project adheres to No Code of Conduct. We are all adults. I accept anyone's contributions. Nothing else matters.
 
 For more information please visit the [No Code of Conduct](https://github.com/domgetter/NCoC) homepage.
+
+## Help improve star history
+
+[![Star History Chart](https://api.star-history.com/svg?repos=littleli/scoop-clojure&type=date&legend=top-left)](https://www.star-history.com/#littleli/scoop-clojure&type=date&legend=top-left)
