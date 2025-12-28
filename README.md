@@ -69,6 +69,7 @@ Emacs users should now issue `clj` and `clojure` commands without hassle.
 - [bibcal](https://github.com/johanthoren/bibcal): Calculate dates based on the Bible and the 1st Book of Enoch
 - [bootleg](https://github.com/retrogradeorbit/bootleg): Simple template processing command line tool to help build static websites
 - [carve](https://github.com/borkdude/carve): Carve will search through your code for unused vars and will remove them
+- [cljfmt](https://github.com/weavejester/cljfmt): Code formatting tool
 - [clj-kondo](https://github.com/borkdude/clj-kondo): A linter for Clojure code that sparks joy
 - [clojure-lsp](https://github.com/clojure-lsp/clojure-lsp): Language server for Clojure
 - [cq](https://github.com/markus-wa/cq): Clojure Command-line Data Processor for JSON, YAML, EDN, XML and more
@@ -111,6 +112,7 @@ scoop install bb-web
 scoop install bibcal
 scoop install bootleg
 scoop install carve
+scoop install cljfmt
 scoop install clj-kondo
 scoop install clojure-lsp
 scoop install cq
